@@ -30,6 +30,17 @@ config(['$routeProvider',
             reloadOnSearch: false
         });
 
+
+
+        $routeProvider.when('/visualize-budget', {
+            templateUrl: 'templates/visualization-budget.html',
+            reloadOnSearch: false
+        });
+
+
+
+
+
         $routeProvider.when('/visualize-composition', {
             templateUrl: 'templates/visualization-composition.html',
             controller: 'VisualizationCtrl',
