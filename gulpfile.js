@@ -6,7 +6,6 @@ var uglify = require('gulp-uglify');
 var imagemin = require('gulp-imagemin');
 var livereload = require('gulp-livereload');
 var concat = require('gulp-concat');
-var sass = require('gulp-sass');
 var bower = require('gulp-bower');
 var usemin = require('gulp-usemin');
 

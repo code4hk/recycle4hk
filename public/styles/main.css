@@ -423,5 +423,6 @@ footer {
 
 
 .container.snap-content{
+    margin-top:50px;
   position:relative;
 }
