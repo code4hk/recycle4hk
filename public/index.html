@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <title>Recycle4HK</title>
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width">
+  
+  <meta property="og:title" content="">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="">
+    <meta property="og:site_name" content="">
+    <meta property="og:description" content="">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="styles/animate.css">
+  <link href='http://fonts.googleapis.com/css?family=Dr+Sugiyama|Lato:400,100,100italic,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="lib/angular-snap/angular-snap.css">
+  <link rel="stylesheet" href="styles/main.css">
+
+  <!-- Fav and touch icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/apple-touch-icon-114-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/apple-touch-icon-72-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" href="/apple-touch-icon-57-precomposed.png">
+  <link rel="shortcut icon" href="/favicon.ico">
+</head>
+
+<body ng-app="recycle4hk">
+
+    <div class="navbar navbar-inverse navbar-static-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <!-- <a style="color:white" href="index.html">Recycle4HK</a> -->
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#timeline">Timeline 政策時序</a></li>
+            <li><a href="#visualize">Management 廢物處理</a></li>
+            <li><a href="#about">Reduction 減廢</a></li>
+            <li><a href="#tips">Tips 環保貼士</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div><!--/.navbar-collapse -->
+      </div>
+    </div>
+         <ng-view class="view-animate"></ng-view>   
+    </body>
+      <div class="row" style="background:white;color:black;text-align:center; "><span class="pull-right ">&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="pull-right"> 若資料錯漏請指正  code4hk@gmail.com  </span> </div>
+      <!-- build:js scripts/lib.js -->
+        <!-- <script type='text/javascript' src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> -->
+<!-- Vendor -->
+        <script src="lib/angular/angular.js"></script>
+        <script src="lib/angular-route/angular-route.js"></script>
+        <script src="lib/angular-mocks/angular-mocks.js"></script>
+        <script src="lib/angular-animate/angular-animate.js"></script>
+        <script src="lib/modernizr/modernizr.js"></script>
+
+        <script type="text/javascript" src="lib/lazy.js/lazy.js"></script>
+<!-- optional: if you want support for DOM event and AJAX-based sequences: -->
+<script type="text/javascript" src="lib/lazy.js/lazy.browser.js"></script>
+        <script type='text/javascript' src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.10.0/ui-bootstrap-tpls.js"></script>
+        <script type="text/javascript" src="lib/snapjs/snap.js"></script>
+
+<script type="text/javascript" src="lib/angular-snap/angular-snap.js"></script>
+
+        <script src="scripts/app.js"></script>
+</html>

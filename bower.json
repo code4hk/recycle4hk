@@ -1,0 +1,23 @@
+{
+  "name": "recycle4hk",
+  "version": "0.1.0",
+  "ignore": [
+    "app/lib/",
+    "**/.*",
+    "node_modules",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": null,
+    "angular-route": "1.2.*",
+    "angular-mocks": "1.2.*",
+    "angular-touch": "*",
+    "angular-animate": "*",
+    "lazy.js": "*",
+    "ng-i18next": "0.3.1",
+    "modernizr": "~2.8.0",
+    "angular-bootstrap": "~0.11.0",
+    "angular-snap": "~1.5.4"
+  }
+}
