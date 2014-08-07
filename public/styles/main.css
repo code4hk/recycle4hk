@@ -420,9 +420,11 @@ footer {
   background-color:white;
 }
 
-
+.view-container.snap-content{
+  margin-top:0px;
+  position:relative;
+}
 
 .container.snap-content{
-    margin-top:50px;
-  position:relative;
+  /*position:relative;*/
 }
